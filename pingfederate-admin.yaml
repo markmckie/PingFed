@@ -58,7 +58,7 @@ spec:
         - secretRef:
             name: devops-secret
             optional: true
-        image: pingidentity/pingfederate:edge
+        image: pingidentity/pingfederate:2307
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 1
