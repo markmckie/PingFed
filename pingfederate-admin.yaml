@@ -18,7 +18,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ping1
 spec:
-  storageClassName: longhorn
+  storageClassName: local-path
   accessModes:
     - ReadWriteOnce
   resources:
